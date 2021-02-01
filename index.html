@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="main.css" rel="stylesheet">
+        <!--===box icons-加入 外部icon===-->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <!--====== HEADER-頂部 ======-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <!--=== 左上logo【Coffee】 ===-->
+                <div>
+                    <a href="#" class="nav_logo">Coffee</a>
+                </div>
+
+                <!--=== 右上menu【手機版-icon】【未開啟】 ===-->
+                <div class="nav_toggle" id="nav-toggle">
+                    <!--=== 右上menu【手機版-icon】【顯示 三 菜單開關】===-->
+                    <i class='bx bx-menu'></i>
+                </div>
+
+                <!--=== 右上menu【手機版-icon】【已開啟】===-->
+                <div class="nav_menu" id="nav-menu">
+                    <!--=== 右上menu【手機版-icon】【顯示 X 提供關閉】===-->
+                    <div class="nav_close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+                    <!--=== 【菜單內容】 手機/電腦版 共用===-->
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="#" class="nav_link">首頁Home</a></li>
+                        <li class="nav_item"><a href="#" class="nav_link">關於About</a></li>
+                        <li class="nav_item"><a href="#" class="nav_link">論壇Blog</a></li>
+                        <li class="nav_item"><a href="#" class="nav_link">聯繫Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!--====== main主頁 ======-->
+        <main class="l-main">
+            <!--====== home首頁 【置入 背景純色】======-->
+            <section class="home">
+                <!--====== home首頁 【置入 排版布局】======-->
+                <div class="home_container bd-grid">
+                    <!--====== home首頁 【圖片】 ======-->
+                    <div class="home_img">
+                        <img src="img/img1.png" alt="" data-speed="-2" class="move">
+                        <img src="img/img2.png" alt="" data-speed="2" class="move">
+                        <img src="img/img3.png" alt="" data-speed="2" class="move">
+                        <img src="img/img4.png" alt="" data-speed="-2" class="move">
+                        <img src="img/img5.png" alt="" data-speed="-2" class="move">
+                        <img src="img/img6.png" alt="" data-speed="2" class="move">
+                    </div>
+                    <!--====== home首頁 【文字】 ======-->
+                    <div class="home_data">
+                        <h1 class="home_title">Coffee<br> Drink 3D</h1>
+                        <p class="home_description">一同探索一周之初<br>最棒的咖啡</p>
+                        <a href="#" class="home_button">探索Started</a>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+
+        <!--====== GASP-JS======-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+        <!--====== MAIN-JS======-->
+        <script src="main.js"></script>
+
+    </body>
+</html>
